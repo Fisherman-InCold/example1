@@ -7,7 +7,7 @@ int main()
 {
     Person person("Wang",17,male,"Beijing",528);
     Teacher teacher("Wang",18,male,"Beijing",528,"assistant");
-    Cadre cadre("Wang",18,male,"Beijing",528,"chairman");
+    Cadre cadre("Wang",20,male,"Beijing",528,"chairman");
     Teacher_Cadre tc("Wang",18,male,"Beijing",528,"assistant","chairman",54321.6); 
     Something *p[4];
     p[0] = &person;
